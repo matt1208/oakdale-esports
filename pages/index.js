@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        {/* <div className={styles.bars}></div> */}
+        <div className={styles.bars}></div>
         <h1 className={styles.title}>
           Oakdale High<br></br><span className={styles.accentText}>Esports</span>
         </h1>
@@ -24,7 +24,10 @@ export default function Home() {
 
       {/* Put form in footer */}
       <footer className={styles.footer}>
-        Form Going Here
+        <form style={{ display: "inline" }}>
+          <input className={styles.formInput} type="email" id="email" name="email" placeholder="EMAIL" />
+          <button className={styles.submitBtn} type="submit">Stay In the Loop</button>
+        </form>
       </footer>
     </div>
   )
