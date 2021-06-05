@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { TypeWriterText } from 'type-writer-text'
+
 
 export default function Home() {
   return (
@@ -18,15 +20,16 @@ export default function Home() {
         </h1>
 
         <div className={styles.specialText}>
-          <p>Coming Soon</p>
+          {/* <p>Coming Soon</p> */}
+          <TypeWriterText text={"Coming Soon"} showCursor={false} animationSpeed={200} />
         </div>
       </main>
 
       {/* Put form in footer */}
       <footer className={styles.footer}>
-        <form style={{ display: "inline" }}>
-          <input className={styles.formInput} type="email" id="email" name="email" placeholder="EMAIL" />
-          <button className={styles.submitBtn} type="submit">Stay In the Loop</button>
+        <form style={{ display: "inline" }} action="https://gmail.us6.list-manage.com/subscribe/post?u=6c7b84c6fd110f0881bc19736&amp;id=802f764a2e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <input className={styles.formInput} class="required email" id="mce-EMAIL" type="email" id="email" name="email" placeholder="EMAIL" />
+          <button className={styles.submitBtn} type="submit" id="mc-embedded-subscribe">Stay In the Loop</button>
         </form>
       </footer>
     </div>
