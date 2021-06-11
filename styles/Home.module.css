@@ -225,4 +225,12 @@
 .accentText {
   font-size: 70px;
 }
+
+.main {
+  padding: 3rem 0;
+}
+
+.specialText {
+  padding-top: 3rem;
+}
 }
