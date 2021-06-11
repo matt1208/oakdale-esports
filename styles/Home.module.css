@@ -210,10 +210,19 @@
   .formFooter {
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
   }
   
   .formInput {
   margin-right: 0px;
   margin-bottom: 10px;
+}
+
+.title {
+  font-size: 70px;
+}
+
+.accentText {
+  font-size: 70px;
 }
 }
