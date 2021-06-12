@@ -50,6 +50,7 @@
   font-style: normal;
   font-weight: 600;
   text-align: center;
+  z-index: 10;
 }
 
 .accentText {
@@ -151,21 +152,80 @@
   width: 310px;
   height: 0px;
   left: 0px;
-  top: 20.01px;
+  top: 80.01px;
   background-color: #D32300;
   border: 2px solid #D32300;
-  box-shadow: 0px 0px 50px #D32300;
+  box-shadow: 0 0 10px 2px #D32300, 0.5rem 0.5rem 30px #D32300;
+  z-index: 0;
+}
+
+.barsYellow {
+  position: absolute;
+  width: 184px;
+  height: 0px;
+  left: 0px;
+  top: 120.01px;
+  background-color: #FFD000;
+  border: 2px solid #FFD000;
+  box-shadow: 0 0 10px 2px #FFD000, 0.5rem 0.5rem 30px #FFD000;
+  z-index: 0;
 }
 
 .barsright {
   position: absolute;
+  width: 184px;
+  height: 0px;
+  right: 0px;
+  top: 420.01px;
+  background-color: #D32300;
+  border: 2px solid #D32300;
+  box-shadow: 0 0 10px 2px #D32300, 0.5rem 0.5rem 30px #D32300;
+}
+
+.barsrightYellow {
+  position: absolute;
   width: 310px;
   height: 0px;
   right: 0px;
+  top: 380.01px;
+  background-color: #FFD000;
+  border: 2px solid #FFD000;
+  box-shadow: 0 0 10px 2px #FFD000, 0.5rem 0.5rem 30px #FFD000;
+}
+
+@media (max-width: 800px) {
+  .bars {
+    width: 210px;
+    top: 30.01px;
+  }
+
+  .barsYellow {
+    width: 84px;
+    top:70.01px;
+
+  }
+
+  .barsright {
+    width: 84px;
+    top: 340.01px;
+  }
+
+  .barsrightYellow {
+    width: 210px;
   top: 300.01px;
-  /* background-color: #D32300;
-  border: 2px solid #D32300;
-  box-shadow: 0px 0px 50px #D32300; */
+  }
+}
+
+@media (max-width: 450px) {
+  .barsright {
+    width: 84px;
+    top: 400.01px;
+  }
+
+  .barsrightYellow {
+    width: 210px;
+  top: 360.01px;
+  }
 }
 
 .formFooter {
