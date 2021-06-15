@@ -14,17 +14,16 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-         <div className={styles.bars}></div> 
-         <div className={styles.barsYellow}></div>
+        <div className={styles.bars}></div>
+        <div className={styles.barsYellow}></div>
         <h1 className={styles.title}>
           Oakdale High<br></br><span className={styles.accentText}>Esports</span>
         </h1>
 
-        <div className={styles.barsrightYellow}></div> 
-        <div className={styles.barsright}></div> 
+        <div className={styles.barsrightYellow}></div>
+        <div className={styles.barsright}></div>
 
         <div className={styles.specialText}>
-          {/* <p>Coming Soon</p> */}
           <TypeWriterText text={"Coming Soon"} showCursor={false} animationSpeed={200} />
         </div>
       </main>
