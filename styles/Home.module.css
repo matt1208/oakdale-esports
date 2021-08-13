@@ -5,7 +5,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .main {
@@ -299,4 +298,31 @@
 .main {
   padding: 2rem 0;
 }
+}
+
+.goBtn {
+  border: 2px solid #D32300;
+  border-radius: 10px;
+  color: #F3F4F6;
+  font-weight: 600;
+  font-size: 20px;
+  height: 40px;
+  width: 60px;
+  background-color: transparent;
+}
+
+.goBtn:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-1.5px);
+	transform: translateY(-1.5px);
+}
+
+.teamCards {
+  background: linear-gradient(180deg, #40434E 0%, rgba(211, 35, 0, 0.42) 100%), #40434E;
+  transition: transform .2s; 
+}
+
+.teamCards:hover {
+  cursor: pointer;
+  transform: scale(1.1); 
 }
