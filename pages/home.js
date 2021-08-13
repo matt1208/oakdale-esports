@@ -3,9 +3,14 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { TypeWriterText } from 'type-writer-text'
 import { Box, Flex, Stack, Grid, Wrap, AspectRatio, SimpleGrid, Heading } from "@chakra-ui/layout"
+import TeamGrid from '../components/teamGrid'
+import { useMediaQuery } from '@chakra-ui/react'
+import ScheduleBoard from '../components/scheduleBoard'
 
 
 export default function Home() {
+    const [isLargerThan700] = useMediaQuery("(max-width: 700px)");
+
     return (
         <div className={styles.container}>
             <Head>
@@ -24,46 +29,11 @@ export default function Home() {
                 <div className={styles.barsrightYellow}></div>
                 <div className={styles.barsright}></div>
 
-                <SimpleGrid columns={[1, null, 2]} spacing={20} color="white" marginTop="40">
-                    <Box backgroundColor="#40434E" height="200px" borderRadius="20px" textAlign="center" padding="4">
-                        <h1>Upcoming</h1>
-                        <Box >
-                            {/* <p style={{ fontWeight: "600" }}> October 5, 2021 | 4:00 PM </p>
-                            <SimpleGrid columns={2} spacing={10}>
-                                <p style={{ fontWeight: "600" }}>VS</p>
-                                <button className={styles.goBtn}>Go</button>
-                            </SimpleGrid> */}
-                            <p style={{ fontWeight: "600", fontSize: "25px", paddingTop: "5px" }}> Check back soon for our schedule. </p>
-
-                        </Box>
-                    </Box>
-                    <Box backgroundColor="#40434E" height="200px" borderRadius="20px" textAlign="center" padding="2">
-                        <h1>Results</h1>
-                        <Box>
-                            <p style={{ fontWeight: "600", fontSize: "25px", paddingTop: "15px" }}> We don’t have any results yet! </p>
-                        </Box>
-                    </Box>
-                </SimpleGrid>
+                <ScheduleBoard />
 
                 <br></br>
 
-                <Box textAlign="center" color="white">
-                    <h1>The Teams</h1>
-                    <SimpleGrid columns={[1, null, 4]} spacing={20} color="white">
-                        <Box className={styles.teamCards} height="200px" borderRadius="20px" textAlign="center">
-                            <p style={{ fontWeight: "600", fontSize: "25px", paddingTop: "55%" }}>Rocket League</p>
-                        </Box>
-                        <Box className={styles.teamCards} height="200px" borderRadius="20px" textAlign="center">
-                            <p style={{ fontWeight: "600", fontSize: "25px", paddingTop: "45%" }}>League of<br></br>Legends</p>
-                        </Box>
-                        <Box className={styles.teamCards} height="200px" borderRadius="20px" textAlign="center">
-                            <p style={{ fontWeight: "600", fontSize: "25px", paddingTop: "55%" }}>SMITE</p>
-                        </Box>
-                        <Box className={styles.teamCards} height="200px" borderRadius="20px" textAlign="center">
-                            <p style={{ fontWeight: "600", fontSize: "25px", paddingTop: "55%" }}>Content</p>
-                        </Box>
-                    </SimpleGrid>
-                </Box>
+                <TeamGrid />
 
 
             </main>
