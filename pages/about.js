@@ -1,12 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { TypeWriterText } from 'type-writer-text'
 import { Box, Flex, Stack, Grid, Wrap, AspectRatio, SimpleGrid, Heading } from "@chakra-ui/layout"
-import TeamGrid from '../components/teamGrid'
 import { useMediaQuery } from '@chakra-ui/react'
-import ScheduleBoard from '../components/scheduleBoard'
 import OakdaleHeader from '../components/header'
+// import schoolPic from '../public/Rectangle 57.png'
 
 
 export default function Home() {
@@ -23,11 +21,25 @@ export default function Home() {
             <main className={styles.main}>
                 <OakdaleHeader />
 
-                <ScheduleBoard />
+                <SimpleGrid columns={2} spacing={20} color="white">
+                    <Box>
+                        <h1>About Oakdale High<br></br>School Esports</h1>
+                        <p>Fake text regarding about oakdale high school esports</p>
+                        <p>Header artwork by OHS teacher Matt McDonald</p>
+                    </Box>
+                    <Box>
+                        <img src="OHS.png" width="369px" height="198.75" alt="OHS Artwork" />
+                    </Box>
 
-                <br></br>
+                    <Box marginTop="40px">
+                        <img src="Esports1.png" width="369px" height="198.75" style={{ borderRadius: "10px" }} alt="Black and white image of child at computer gaming." />
+                    </Box>
+                    <Box marginTop="40px">
+                        <h1>About Esports</h1>
+                        <p>Fake text regarding about general esports</p>
+                    </Box>
+                </SimpleGrid>
 
-                <TeamGrid />
 
 
             </main>

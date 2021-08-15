@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { TypeWriterText } from 'type-writer-text'
+import OakdaleHeader from '../components/header'
 
 
 export default function Home() {
@@ -14,14 +15,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div className={styles.bars}></div>
-        <div className={styles.barsYellow}></div>
-        <h1 className={styles.title}>
-          Oakdale High<br></br><span className={styles.accentText}>Esports</span>
-        </h1>
-
-        <div className={styles.barsrightYellow}></div>
-        <div className={styles.barsright}></div>
+        <OakdaleHeader />
 
         <div className={styles.specialText}>
           <TypeWriterText text={"Coming Soon"} showCursor={false} animationSpeed={200} />

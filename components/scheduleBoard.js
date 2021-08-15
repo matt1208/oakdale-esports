@@ -14,10 +14,10 @@ const ScheduleBoard = () => {
                         <h1>Upcoming</h1>
                         <Box >
                             {/* <p style={{ fontWeight: "600" }}> October 5, 2021 | 4:00 PM </p>
-        <SimpleGrid columns={2} spacing={10}>
-            <p style={{ fontWeight: "600" }}>VS</p>
-            <button className={styles.goBtn}>Go</button>
-        </SimpleGrid> */}
+                                <SimpleGrid columns={2} spacing={10}>
+                                    <p style={{ fontWeight: "600" }}>VS</p>
+                                    <button className={styles.goBtn}>Go</button>
+                                </SimpleGrid> */}
                             <p style={{ fontWeight: "600", fontSize: "25px", paddingTop: "5px" }}> Check back soon for our schedule. </p>
 
                         </Box>
@@ -35,10 +35,10 @@ const ScheduleBoard = () => {
                         <h1>Upcoming</h1>
                         <Box >
                             {/* <p style={{ fontWeight: "600" }}> October 5, 2021 | 4:00 PM </p>
-        <SimpleGrid columns={2} spacing={10}>
-            <p style={{ fontWeight: "600" }}>VS</p>
-            <button className={styles.goBtn}>Go</button>
-        </SimpleGrid> */}
+                                <SimpleGrid columns={2} spacing={10}>
+                                    <p style={{ fontWeight: "600" }}>VS</p>
+                                    <button className={styles.goBtn}>Go</button>
+                                </SimpleGrid> */}
                             <p style={{ fontWeight: "600", fontSize: "25px", paddingTop: "5px" }}> Check back soon for our schedule. </p>
 
                         </Box>
