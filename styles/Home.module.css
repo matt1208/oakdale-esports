@@ -265,6 +265,12 @@
 	transform: translateY(-1.5px);
 }
 
+.footerlink {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: right;
+}
+
 @media (max-width: 800px) {
   .formFooter {
     flex-direction: column;

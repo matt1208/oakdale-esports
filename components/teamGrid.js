@@ -10,13 +10,13 @@ const TeamGrid = () => {
             <Box textAlign="center" color="white">
                 <h1>The Teams</h1>
                 <SimpleGrid columns={[1, null, 4]} spacing={20} color="white">
-                    <Link href="/comingsoon">
+                    <Link href="/rocketleague">
                         <Box className={styles.teamCards} height="200px" borderRadius="20px" textAlign="center">
                             <p style={{ fontWeight: "600", fontSize: "25px", paddingTop: "55%" }}>Rocket League</p>
                         </Box>
                     </Link>
 
-                    <Link href="/comingsoon">
+                    <Link href="/leagueoflegends">
                         <Box className={styles.teamCards} height="200px" borderRadius="20px" textAlign="center">
                             <p style={{ fontWeight: "600", fontSize: "25px", paddingTop: "45%" }}>League of<br></br>Legends</p>
                         </Box>
@@ -28,7 +28,7 @@ const TeamGrid = () => {
                         </Box>
                     </Link>
 
-                    <Link href="/comingsoon">
+                    <Link href="/content">
                         <Box className={styles.teamCards} height="200px" borderRadius="20px" textAlign="center">
                             <p style={{ fontWeight: "600", fontSize: "25px", paddingTop: "55%" }}>Content</p>
                         </Box>
