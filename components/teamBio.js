@@ -29,7 +29,7 @@ const TeamBioLofL = () => {
         <HStack>
                 <img src={loflArray[1][3]} height="120px" width="120px" style={{borderRadius:"50%"}} alt="Profile Picture"  />
                 <Stack>
-                    <h3 style={{lineHeight: "0px"}}>{loflArray[1][0]}</h3>
+                    <h2 style={{lineHeight: "0px"}}>{loflArray[1][0]}</h2>
                     <p>{loflArray[1][1]}</p>
                     <p>{loflArray[1][2]}</p>
                 </Stack>
@@ -40,7 +40,7 @@ const TeamBioLofL = () => {
             <HStack>
                 <Circle size="120px" bg="#4A5568" />
                 <Stack>
-                    <h3 style={{lineHeight: "0px"}}>{loflArray[0][0]}</h3>
+                    <h2 style={{lineHeight: "0px"}}>{loflArray[0][0]}</h2>
                     <p>{loflArray[0][1]}</p>
                     <p>{loflArray[0][2]}</p>
                 </Stack>
@@ -51,7 +51,7 @@ const TeamBioLofL = () => {
             <HStack>
                 <Circle size="120px" bg="#4A5568" />
                 <Stack>
-                    <h3 style={{lineHeight: "0px"}}>{loflArray[0][0]}</h3>
+                    <h2 style={{lineHeight: "0px"}}>{loflArray[0][0]}</h2>
                     <p>{loflArray[0][1]}</p>
                     <p>{loflArray[0][2]}</p>
                 </Stack>
@@ -62,7 +62,7 @@ const TeamBioLofL = () => {
             <HStack>
                 <Circle size="120px" bg="#4A5568" />
                 <Stack>
-                    <h3 style={{lineHeight: "0px"}}>{loflArray[0][0]}</h3>
+                    <h2 style={{lineHeight: "0px"}}>{loflArray[0][0]}</h2>
                     <p>{loflArray[0][1]}</p>
                     <p>{loflArray[0][2]}</p>
                 </Stack>
@@ -73,7 +73,7 @@ const TeamBioLofL = () => {
             <HStack>
                 <Circle size="120px" bg="#4A5568" />
                 <Stack>
-                    <h3 style={{lineHeight: "0px"}}>{loflArray[1][0]}</h3>
+                    <h2 style={{lineHeight: "0px"}}>{loflArray[0][0]}</h2>
                     <p>{loflArray[0][1]}</p>
                     <p>{loflArray[0][2]}</p>
                 </Stack>
@@ -84,7 +84,7 @@ const TeamBioLofL = () => {
             <HStack>
                 <Circle size="120px" bg="#4A5568" />
                 <Stack>
-                    <h3 style={{lineHeight: "0px"}}>{loflArray[0][0]}</h3>
+                    <h2 style={{lineHeight: "0px"}}>{loflArray[0][0]}</h2>
                     <p>{loflArray[0][1]}</p>
                     <p>{loflArray[0][2]}</p>
                 </Stack>

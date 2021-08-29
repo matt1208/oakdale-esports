@@ -22,7 +22,7 @@ const TeamBioRL = () => {
             <HStack>
                 <Circle size="120px" bg="#4A5568" />
                 <Stack>
-                    <h3 style={{lineHeight: "0px"}}>{rocketLeagueArray[0][0]}</h3>
+                    <h2 style={{lineHeight: "0px"}}>{rocketLeagueArray[0][0]}</h2>
                     <p>{rocketLeagueArray[0][1]}</p>
                     <p>{rocketLeagueArray[0][2]}</p>
                 </Stack>
@@ -34,7 +34,7 @@ const TeamBioRL = () => {
                 {/* <img src={loflArray[1][3]} height="120px" width="120px" style={{borderRadius:"50%"}}  /> */}
                 <Circle size="120px" bg="#4A5568" />
                 <Stack>
-                    <h3 style={{lineHeight: "0px"}}>{rocketLeagueArray[0][0]}</h3>
+                    <h2 style={{lineHeight: "0px"}}>{rocketLeagueArray[0][0]}</h2>
                     <p>{rocketLeagueArray[0][1]}</p>
                     <p>{rocketLeagueArray[0][2]}</p>
                 </Stack>
@@ -45,7 +45,7 @@ const TeamBioRL = () => {
             <HStack>
                 <Circle size="120px" bg="#4A5568" />
                 <Stack>
-                    <h3 style={{lineHeight: "0px"}}>{rocketLeagueArray[0][0]}</h3>
+                    <h2 style={{lineHeight: "0px"}}>{rocketLeagueArray[0][0]}</h2>
                     <p>{rocketLeagueArray[0][1]}</p>
                     <p>{rocketLeagueArray[0][2]}</p>
                 </Stack>
@@ -56,7 +56,7 @@ const TeamBioRL = () => {
             <HStack>
                 <Circle size="120px" bg="#4A5568" />
                 <Stack>
-                    <h3 style={{lineHeight: "0px"}}>{rocketLeagueArray[0][0]}</h3>
+                    <h2 style={{lineHeight: "0px"}}>{rocketLeagueArray[0][0]}</h2>
                     <p>{rocketLeagueArray[0][1]}</p>
                     <p>{rocketLeagueArray[0][2]}</p>
                 </Stack>
@@ -67,7 +67,7 @@ const TeamBioRL = () => {
             <HStack>
                 <Circle size="120px" bg="#4A5568" />
                 <Stack>
-                    <h3 style={{lineHeight: "0px"}}>{rocketLeagueArray[0][0]}</h3>
+                    <h2 style={{lineHeight: "0px"}}>{rocketLeagueArray[0][0]}</h2>
                     <p>{rocketLeagueArray[0][1]}</p>
                     <p>{rocketLeagueArray[0][2]}</p>
                 </Stack>
@@ -78,7 +78,7 @@ const TeamBioRL = () => {
             <HStack>
                 <Circle size="120px" bg="#4A5568" />
                 <Stack>
-                    <h3 style={{lineHeight: "0px"}}>{rocketLeagueArray[0][0]}</h3>
+                    <h2 style={{lineHeight: "0px"}}>{rocketLeagueArray[0][0]}</h2>
                     <p>{rocketLeagueArray[0][1]}</p>
                     <p>{rocketLeagueArray[0][2]}</p>
                 </Stack>
