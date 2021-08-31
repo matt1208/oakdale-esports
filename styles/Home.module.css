@@ -332,3 +332,68 @@
   cursor: pointer;
   transform: scale(1.1); 
 }
+
+/*Grid*/
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.two {
+  grid-column:  2;
+  grid-row: 1 / 2;
+}
+
+.three {
+  grid-column:  2;
+  grid-row: 1 /2;
+  margin-top: 130px;
+}
+
+.four {
+  grid-column:  1;
+  grid-row: 2;
+}
+
+.five {
+  grid-column:  2;
+  grid-row:  2;
+}
+
+@media (max-width: 1000px) { 
+  .wrapper {
+    display: block;
+  }
+  
+  .one {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .two {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .three {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .four {
+     margin-top: 10px;
+     margin-bottom: 10px;
+  }
+
+  .five {
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+}

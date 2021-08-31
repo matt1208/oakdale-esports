@@ -2,7 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
-import { Box, Flex, Stack, Grid, Wrap, AspectRatio, SimpleGrid, Heading } from "@chakra-ui/layout"
+import Icon from 'supercons'
+import { Box, Flex, Stack, Grid, Wrap, AspectRatio, SimpleGrid, Heading, HStack } from "@chakra-ui/layout"
 import { useMediaQuery } from '@chakra-ui/react'
 import OakdaleHeader from '../components/header'
 
@@ -37,6 +38,10 @@ export default function Home() {
                     <Box marginTop="20px">
                         <h1>About Esports</h1>
                         <p>Esports is currently the fastest growing sport in California and opening up new opportunities for high school students.</p>
+                        <HStack>
+                            <Icon glyph="enter" size={40} />
+                            <p>Fun Facts About Esports</p>
+                        </HStack>
                     </Box>
                     <Box marginTop="20px">
                         <img src="Esports1.png" width="369px" height="198.75" style={{ borderRadius: "10px" }} alt="Black and white image of child at computer gaming." />
@@ -61,6 +66,10 @@ export default function Home() {
                     <Box marginTop="40px" marginLeft="40px">
                         <h1>About Esports</h1>
                         <p>Esports is currently the fastest growing sport in California and opening up new opportunities for high school students.</p>
+                        <HStack>
+                            <Icon glyph="enter" size={40} />
+                            <Link href="/funfacts">Fun Facts About Esports</Link>
+                        </HStack>
                     </Box>
                 </SimpleGrid>
                 )
