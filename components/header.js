@@ -9,10 +9,11 @@ const OakdaleHeader = () => {
         <>
             <div className={styles.bars}></div>
             <div className={styles.barsYellow}></div>
-            <h1 className={styles.title}>
-                Oakdale High<br></br><span className={styles.accentText}>Esports</span>
-            </h1>
-
+            <Link href="/">
+                <h1 className={styles.title}>
+                    Oakdale High<br></br><span className={styles.accentText}>Esports</span>
+                </h1>
+            </Link>
             <div className={styles.barsrightYellow}></div>
             <div className={styles.barsright}></div>
 

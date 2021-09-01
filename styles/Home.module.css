@@ -1,5 +1,5 @@
 .container {
-  min-height: 100vh;
+  min-height: 160vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
@@ -265,22 +265,31 @@
 	transform: translateY(-1.5px);
 }
 
-.footerlink {
+.footerLink {
   font-weight: 600;
-  font-size: 20px;
-  text-align: right;
+  font-size: 25px;
+  padding-left: 30px;
+  text-align: center;
+  display: inline;
+}
+
+.footerLink:hover {
+  cursor: pointer;
 }
 
 @media (max-width: 800px) {
   .formFooter {
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
   }
   
   .formInput {
   margin-right: 0px;
   margin-bottom: 10px;
+}
+
+.footerLink {
+  padding-left: 0px;
 }
 
 .title {

@@ -39,7 +39,7 @@ const ScheduleBoard = () => {
                                     <p style={{ fontWeight: "600" }}>VS</p>
                                     <button className={styles.goBtn}>Go</button>
                                 </SimpleGrid> */}
-                            <p style={{ fontWeight: "600", fontSize: "25px", paddingTop: "5px" }}> Check back soon for our schedule. </p>
+                            <p style={{ fontWeight: "600", fontSize: "25px", paddingTop: "5px" }}> Check back soon for our schedule</p>
 
                         </Box>
                     </Box>
