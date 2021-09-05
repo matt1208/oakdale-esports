@@ -2,8 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
-import { TypeWriterText } from 'type-writer-text'
-import OakdaleHeader from '../components/header'
+import Icon from 'supercons'
 import { Avatar, AvatarGroup } from "@chakra-ui/react"
 import { Box, Flex, Stack, Grid, Wrap, AspectRatio, SimpleGrid, Heading, WrapItem, Circle, VStack, HStack, Center } from "@chakra-ui/layout"
 import TeamBioRL from '../components/teamBioRL'
@@ -18,6 +17,12 @@ export default function Home() {
     var bioArray = new Array(["Matthew", "Senior", "Bio"], ["Person 2", "Junior", "Bio2"], ["Gilbert", "Hmm", "Ugh"]);
 
   return (
+    <>
+
+    <a href="/" className={styles.navlink}>
+      <Icon glyph="view-back" size={40} style={{marginTop: "20px"}} />
+    </a>
+
     <div className={styles.container}>
       <Head>
         <title>Oakdale High Esports</title>
@@ -48,5 +53,6 @@ export default function Home() {
         </form>
       </footer>
     </div>
+    </>
   )
 }
