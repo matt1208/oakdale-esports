@@ -2,21 +2,18 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
-import { TypeWriterText } from 'type-writer-text'
 import { Box, Flex, Stack, Grid, Wrap, AspectRatio, SimpleGrid, Heading } from "@chakra-ui/layout"
 import TeamGrid from '../components/teamGrid'
-import { useMediaQuery } from '@chakra-ui/react'
 import ScheduleBoard from '../components/scheduleBoard'
 import OakdaleHeader from '../components/header'
 
 
 export default function Home() {
-    const [isLargerThan700] = useMediaQuery("(max-width: 700px)");
 
     return (
         <div className={styles.container}>
             <Head>
-                <title>Oakdale High Esports</title>
+                <title>Oakdale High Esports | Streams</title>
                 <meta name="description" content="Oakdale High School Esports" />
                 <link rel="icon" href="/mustanglogo.webp" />
             </Head>
@@ -24,11 +21,54 @@ export default function Home() {
             <main className={styles.main}>
                 <OakdaleHeader />
 
-                <ScheduleBoard />
+                <br></br><br></br>
+
+                <h1 style={{textAlign: "center"}}>Stream Our Latest Matches</h1>
 
                 <br></br>
 
-                <TeamGrid />
+                <div className={styles.wrapper}>
+                    <Box 
+                        className={styles.one} 
+                        height="200px" 
+                        width="350px" 
+                        backgroundColor="gray"
+                        borderRadius="10px"
+                    >
+                        
+                    </Box>
+
+                    <Box 
+                        className={styles.two} 
+                        height="200px" 
+                        width="350px" 
+                        backgroundColor="gray"
+                        borderRadius="10px"
+                    >
+                        
+                    </Box>
+
+                    <Box 
+                        className={styles.four} 
+                        height="200px" 
+                        width="350px" 
+                        backgroundColor="gray"
+                        borderRadius="10px"
+                    >
+                        
+                    </Box>
+
+                    <Box 
+                        className={styles.five} 
+                        height="200px" 
+                        width="350px" 
+                        backgroundColor="gray"
+                        borderRadius="10px"
+                    >
+                        
+                    </Box>
+
+                </div>
 
 
             </main>
