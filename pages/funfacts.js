@@ -24,7 +24,7 @@ export default function Home() {
     
                 <br></br><br></br>
 
-                <div className={styles.wrapper}>
+                <div className={styles.wrapper} style={{marginTop: "30px"}}>
 
                     <Box className={styles.one} width="560px" height="250px" bg="#4A5568" borderRadius="10px" textAlign="center" padding="10px">
                         <Icon glyph="bolt" size={116} />
