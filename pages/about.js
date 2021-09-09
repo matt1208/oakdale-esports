@@ -40,7 +40,7 @@ export default function Home() {
                         <p>Esports is currently the fastest growing sport in California and opening up new opportunities for high school students.</p>
                         <HStack>
                             <Icon glyph="enter" size={40} />
-                            <p>Fun Facts About Esports</p>
+                            <Link href="/funfacts">Fun Facts About Esports</Link>
                         </HStack>
                     </Box>
                     <Box marginTop="20px">
