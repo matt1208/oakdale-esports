@@ -276,6 +276,7 @@
   font-weight: 600;
   font-size: 25px;
   padding-left: 30px;
+  padding-right: 30px;
   text-align: center;
   display: inline;
 }
@@ -286,7 +287,7 @@
 
 @media (max-width: 800px) {
   .footer {
-    height: 150px;
+    height: 170px;
   }
 
   .formFooter {
@@ -301,6 +302,7 @@
 
 .footerLink {
   padding-left: 0px;
+  padding-right: 0px;
 }
 
 .title {
