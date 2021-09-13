@@ -9,7 +9,7 @@ const TeamBioCT = () => {
 
       var contentArray = new Array
       (
-          ["Coming Soon", "Players Year", "Our esports players are currently writing up their bio's for you to read!"],
+          ["Coming Soon", "Players Year", "Our content creators are currently writing up their bio's for you to read!"],
           ["Matthew", "Senior", "I am the Oakdale Esports web designer and developer. I develop the designs and also build the website.", "/profile/matthew.png"],
           ["Name", "Year", "My role is playing mid lane and coordinating with my team. I've been playing this game for about 2 years.", "/profile/antonio.jpg"],
           ["Name", "Year", "My role is playing mid lane and coordinating with my team. I've been playing this game for about 2 years."]
