@@ -12,13 +12,13 @@ const ScheduleBoard = () => {
                 <SimpleGrid columns={1} spacing={20} color="white" marginTop="40">
                     <Box backgroundColor="#40434E" height="200px" borderRadius="20px" textAlign="center" padding="4">
                         <h1>Upcoming</h1>
-                        <Box >
-                            {/* <p style={{ fontWeight: "600" }}> October 5, 2021 | 4:00 PM </p>
-                                <SimpleGrid columns={2} spacing={10}>
-                                    <p style={{ fontWeight: "600" }}>VS</p>
-                                    <button className={styles.goBtn}>Go</button>
-                                </SimpleGrid> */}
-                            <p style={{ fontWeight: "600", fontSize: "25px", paddingTop: "5px" }}> Check back soon for our schedule. </p>
+                        <Box lineHeight="10px">
+                            <h3 style={{ fontWeight: "600" }}>JV | October 5, 2021 | 4:00 PM </h3>
+                            <h3 style={{ fontWeight: "600" }}>Varsity | October 7, 2021 | 4:00 PM </h3>
+                            <button className={styles.goBtn}>
+                                Go
+                            </button>
+                            {/* <p style={{ fontWeight: "600", fontSize: "25px", paddingTop: "5px" }}> Check back soon for our schedule</p> */}
 
                         </Box>
                     </Box>
@@ -31,15 +31,18 @@ const ScheduleBoard = () => {
                 </SimpleGrid>
             ) : (
                 <SimpleGrid columns={2} spacing={20} color="white" marginTop="40">
-                    <Box backgroundColor="#40434E" height="200px" borderRadius="20px" textAlign="center" padding="4">
+                    <Box backgroundColor="#40434E" height="200px" borderRadius="20px" textAlign="center" padding="4" width="400px">
                         <h1>Upcoming</h1>
-                        <Box >
-                            {/* <p style={{ fontWeight: "600" }}> October 5, 2021 | 4:00 PM </p>
-                                <SimpleGrid columns={2} spacing={10}>
-                                    <p style={{ fontWeight: "600" }}>VS</p>
-                                    <button className={styles.goBtn}>Go</button>
-                                </SimpleGrid> */}
-                            <p style={{ fontWeight: "600", fontSize: "25px", paddingTop: "5px" }}> Check back soon for our schedule</p>
+                        <Box lineHeight="10px">
+                            <h3 style={{ fontWeight: "600" }}>JV | October 5, 2021 | 4:00 PM </h3>
+                            <h3 style={{ fontWeight: "600" }}>Varsity | October 7, 2021 | 4:00 PM </h3>
+                            <div className={styles.tooltip}>
+                            <button className={styles.goBtn}>
+                                <span className={styles.tooltiptext}>Will become active once the match has started</span>
+                                Go
+                            </button>
+                            </div>
+                            {/* <p style={{ fontWeight: "600", fontSize: "25px", paddingTop: "5px" }}> Check back soon for our schedule</p> */}
 
                         </Box>
                     </Box>

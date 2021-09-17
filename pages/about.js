@@ -53,7 +53,7 @@ export default function Home() {
             <SimpleGrid columns={2} spacing={20} color="white" maxWidth="700px">
                     <Box>
                         <h1>About Oakdale High<br></br>School Esports</h1>
-                        <p>The 2021-22 esports season is the first season for Oakdale High School Esports. <br></br> Our esports program is run through <Link href="https://www.playvs.com">PlayVS</Link>, which provides our game play and manages our program.</p>
+                        <p>The 2021-22 esports season is the first season for Oakdale High School Esports. <br></br> Our esports program is run through <Link href="https://ccesports.org/">Central California Esports League</Link>, which provides our game play and manages our program.</p>
                         <p>Artwork by OHS teacher Matt McDonald</p>
                     </Box>
                     <Box>
