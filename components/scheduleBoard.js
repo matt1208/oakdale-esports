@@ -13,8 +13,8 @@ const ScheduleBoard = () => {
                     <Box backgroundColor="#40434E" height="200px" borderRadius="20px" textAlign="center" padding="4">
                         <h1>Upcoming</h1>
                         <Box lineHeight="10px">
-                            <h3 style={{ fontWeight: "600" }}>JV | October 5, 2021 | 4:00 PM </h3>
-                            <h3 style={{ fontWeight: "600" }}>Varsity | October 7, 2021 | 4:00 PM </h3>
+                            <h4 style={{ fontWeight: "600" }}>JV | October 5, 2021 | 4:00 PM </h4>
+                            <h4 style={{ fontWeight: "600" }}>Varsity | October 7, 2021 | 4:00 PM </h4>
                             <button className={styles.goBtn}>
                                 Go
                             </button>
