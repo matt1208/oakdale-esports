@@ -18,11 +18,11 @@ const TeamBioCT = () => {
         <>
 
     {/* Content Team */}
-        <VStack maxWidth="400px">
+        <VStack maxWidth="400px" paddingLeft="10px">
             <HStack>
                 <img src={contentArray[1][3]} height="120px" width="120px" style={{borderRadius:"50%"}}  />
                 <Stack>
-                    <h2 style={{lineHeight: "0px"}}>{contentArray[1][0]}</h2>
+                    <h2 style={{marginBlockEnd: "2px"}}>{contentArray[1][0]}</h2>
                     <p>{contentArray[1][1]}</p>
                     <p>{contentArray[1][2]}</p>
                 </Stack>
@@ -33,7 +33,7 @@ const TeamBioCT = () => {
             <HStack>
                 <Circle size="120px" bg="#4A5568" />
                 <Stack>
-                    <h2 style={{lineHeight: "0px"}}>{contentArray[0][0]}</h2>
+                    <h2 style={{marginBlockEnd: "2px"}}>{contentArray[0][0]}</h2>
                     <p>{contentArray[0][1]}</p>
                     <p>{contentArray[0][2]}</p>
                 </Stack>
@@ -44,18 +44,18 @@ const TeamBioCT = () => {
             <HStack>
                 <Circle size="120px" bg="#4A5568" />
                 <Stack>
-                    <h2 style={{lineHeight: "0px"}}>{contentArray[0][0]}</h2>
+                    <h2 style={{marginBlockEnd: "2px"}}>{contentArray[0][0]}</h2>
                     <p>{contentArray[0][1]}</p>
                     <p>{contentArray[0][2]}</p>
                 </Stack>
             </HStack>
             </VStack>
 
-            <VStack maxWidth="400px">
+            <VStack maxWidth="400px" paddingRight="10px">
             <HStack>
                 <Circle size="120px" bg="#4A5568" />
                 <Stack>
-                    <h2 style={{lineHeight: "0px"}}>{contentArray[0][0]}</h2>
+                    <h2 style={{marginBlockEnd: "2px"}}>{contentArray[0][0]}</h2>
                     <p>{contentArray[0][1]}</p>
                     <p>{contentArray[0][2]}</p>
                 </Stack>
@@ -66,7 +66,7 @@ const TeamBioCT = () => {
             <HStack>
                 <Circle size="120px" bg="#4A5568" />
                 <Stack>
-                    <h2 style={{lineHeight: "0px"}}>{contentArray[0][0]}</h2>
+                    <h2 style={{marginBlockEnd: "2px"}}>{contentArray[0][0]}</h2>
                     <p>{contentArray[0][1]}</p>
                     <p>{contentArray[0][2]}</p>
                 </Stack>
@@ -77,7 +77,7 @@ const TeamBioCT = () => {
             <HStack>
                 <Circle size="120px" bg="#4A5568" />
                 <Stack>
-                    <h2 style={{lineHeight: "0px"}}>{contentArray[0][0]}</h2>
+                    <h2 style={{marginBlockEnd: "2px"}}>{contentArray[0][0]}</h2>
                     <p>{contentArray[0][1]}</p>
                     <p>{contentArray[0][2]}</p>
                 </Stack>
