@@ -291,18 +291,20 @@
   }
 
   .formFooter {
-    flex-direction: column;
-    align-items: center;
+    /* flex-direction: column;
+    align-items: center; */
+    visibility: hidden;
   }
   
-  .formInput {
+  /* .formInput {
   margin-right: 0px;
   margin-bottom: 10px;
-}
+} */
 
 .footerLink {
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: auto;
+  padding-right: auto;
+  align-items: center;
 }
 
 .title {

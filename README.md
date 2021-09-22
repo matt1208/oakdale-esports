@@ -1,6 +1,6 @@
 ## Oakdale High School Esports
 
-Oakdale High School Esports full site is coming soon. 
+Oakdale High School Esports full site has arrived. See information regarding our upcoming matches, results, teams, and streaming information.   
 Currently: Visit our website at [http://oakdale-esports.vercel.app](oakdale-esports.vercel.app)
 
 ## Getting Started
