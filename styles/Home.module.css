@@ -302,6 +302,8 @@
 } */
 
 .footerLink {
+  margin-left: 20px;
+  margin-right: 20px;
   padding-left: auto;
   padding-right: auto;
   align-items: center;
@@ -357,6 +359,12 @@
   transform: scale(1.1); 
 }
 
+@media (max-width: 800px) {
+  .teamCards {
+width: 150px;
+ }
+  }
+
 /*Grid*/
 .wrapper {
   display: grid;
@@ -382,6 +390,11 @@
 }
 
 .four {
+  grid-column:  1;
+  grid-row: 2;
+}
+
+.fourAbout {
   grid-column:  1;
   grid-row: 2;
 }
@@ -414,6 +427,13 @@
   .four {
      margin-top: 10px;
      margin-bottom: 10px;
+  }
+
+  .fourAbout {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    grid-column:  2;
+    grid-row:  2;
   }
 
   .five {

@@ -75,7 +75,6 @@ export default function Home() {
             <footer className={styles.footer}>
                 <Link href="/streams"><p className={styles.footerLink}>Streams</p></Link>
                 <form className={styles.formFooter} action="https://gmail.us6.list-manage.com/subscribe/post?u=6c7b84c6fd110f0881bc19736&amp;id=802f764a2e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <input className={styles.formInput} class="required email" id="mce-EMAIL" type="email" id="email" name="email" placeholder="EMAIL" />
                     <button className={styles.submitBtn} type="submit" id="mc-embedded-subscribe">Stay In the Loop</button>
                 </form>
                 <Link href="/about"><p className={styles.footerLink}>About</p></Link>
