@@ -6,7 +6,7 @@ import { Box, Flex, Stack, Grid, Wrap, AspectRatio, SimpleGrid, Heading, HStack 
 const ScheduleBoard = () => {
     return (
         <>
-                <div className={styles.wrapper}>
+                <div className={styles.wrapper} style={{marginTop: "50px"}}>
                     <Box  className={styles.one} backgroundColor="#40434E" height="200px" borderRadius="20px" textAlign="center" padding="4" marginRight="auto" marginLeft="auto" width="400px">
                         <h1>Upcoming</h1>
                         <Box lineHeight="10px">

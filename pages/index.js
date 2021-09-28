@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import Icon from 'supercons'
 import styles from '../styles/Home.module.css'
 import { TypeWriterText } from 'type-writer-text'
-import { Box, Flex, Stack, Grid, Wrap, AspectRatio, SimpleGrid, Heading } from "@chakra-ui/layout"
+import { Box, Flex, Stack, Grid, Wrap, AspectRatio, SimpleGrid, Heading, HStack, Center } from "@chakra-ui/layout"
 import TeamGrid from '../components/teamGrid'
 import { useMediaQuery } from '@chakra-ui/react'
 import ScheduleBoard from '../components/scheduleBoard'
@@ -29,6 +30,20 @@ export default function Home() {
                 <br></br>
 
                 <TeamGrid />
+
+                <br></br>
+
+                <div className={styles.alert}>
+                  <Center>
+                  <Link href="/videoeditor">
+                    <HStack>
+                            <Icon glyph="important" size={40} />
+                            <p>Intrested in Video Creation?</p>
+                    </HStack>
+                    </Link>
+
+                  </Center>
+                </div>
 
 
             </main>

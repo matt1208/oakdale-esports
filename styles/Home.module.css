@@ -477,3 +477,11 @@ width: 150px;
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
+.alert {
+  height: 60px;
+  border-radius: 10px;
+  background: rgba(74, 85, 104, 0.58); 
+  text-align: center;
+  padding: 10px;
+}
