@@ -11,7 +11,7 @@ const TeamBioLofL = () => {
           ["Coming Soon", "Players Year", "Our esports players are currently writing up their bio's for you to read!"],
           ["Antonio", "Junior", "My role is playing mid lane and coordinating with my team. I've been playing this game for about 2 years.", "/profile/antonio.jpg"],
           ["Ethan Yager", "Freshman", "I play top for league of legends for the JV team. I do game with a controller but I can play on PC."],
-          ["Gilbert", "Hmm", "My role is playing mid lane and coordinating with my team. I've been playing this game for about 2 years."]
+          ["Joshua Ziebell", "Sophmore", "I am the bot laner for the league of legends team. I'm a very big gamer, mainly playing fps games like Destiny 2 and Call of Duty."]
       );
 
     return (
@@ -44,9 +44,9 @@ const TeamBioLofL = () => {
             <HStack>
                 <Circle size="120px" bg="#4A5568" />
                 <Stack>
-                    <h2 style={{marginBlockEnd: "2px"}}>{loflArray[0][0]}</h2>
-                    <p>{loflArray[0][1]}</p>
-                    <p>{loflArray[0][2]}</p>
+                    <h2 style={{marginBlockEnd: "2px"}}>{loflArray[3][0]}</h2>
+                    <p>{loflArray[3][1]}</p>
+                    <p>{loflArray[3][2]}</p>
                 </Stack>
             </HStack>
             </VStack>

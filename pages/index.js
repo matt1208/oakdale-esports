@@ -3,7 +3,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Icon from 'supercons'
 import styles from '../styles/Home.module.css'
-import { TypeWriterText } from 'type-writer-text'
 import { Box, Flex, Stack, Grid, Wrap, AspectRatio, SimpleGrid, Heading, HStack, Center } from "@chakra-ui/layout"
 import TeamGrid from '../components/teamGrid'
 import { useMediaQuery } from '@chakra-ui/react'
@@ -15,7 +14,7 @@ export default function Home() {
     const [isLargerThan700] = useMediaQuery("(max-width: 700px)");
 
     return (
-        <div className={styles.container}>
+        <div className={styles.container}>m
             <Head>
                 <title>Oakdale High Esports</title>
                 <meta name="description" content="Oakdale High School Esports" />
@@ -38,7 +37,7 @@ export default function Home() {
                   <Link href="/videoeditor">
                     <HStack>
                             <Icon glyph="important" size={40} />
-                            <p>Intrested in Video Creation?</p>
+                            <p style={{fontWeight: "600", fontSize: "18px"}}>Intrested in Video Creation?</p>
                     </HStack>
                     </Link>
 

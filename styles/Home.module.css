@@ -485,3 +485,8 @@ width: 150px;
   text-align: center;
   padding: 10px;
 }
+
+.alert:hover {
+  cursor: pointer;
+  transform: scale(1.01); 
+}

@@ -26,6 +26,7 @@ export default function Home() {
       <main className={styles.main}>
         
         <br></br>
+        
          <div style={{
              textAlign: "center",
              maxWidth: "700px"
