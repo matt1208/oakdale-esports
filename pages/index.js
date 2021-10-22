@@ -14,7 +14,7 @@ export default function Home() {
     const [isLargerThan700] = useMediaQuery("(max-width: 700px)");
 
     return (
-        <div className={styles.container}>m
+        <div className={styles.container}>
             <Head>
                 <title>Oakdale High Esports</title>
                 <meta name="description" content="Oakdale High School Esports" />
