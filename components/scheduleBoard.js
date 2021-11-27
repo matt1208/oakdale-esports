@@ -10,7 +10,7 @@ const ScheduleBoard = () => {
                     <Box  className={styles.one} backgroundColor="#40434E" height="200px" borderRadius="20px" textAlign="center" padding="4" marginRight="auto" marginLeft="auto" width="400px">
                         <h1>Upcoming</h1>
                         <Box lineHeight="10px">
-                           <h3 style={{ fontWeight: "600" }}>Varsity | October 28, 2021 | 4:00 PM </h3>
+                           <h3 style={{ fontWeight: "600" }}>Varsity | December 2, 2021 | 4:00 PM </h3>
                             <div className={styles.tooltip}>
                             <button className={styles.goBtn}>
                                 <span className={styles.tooltiptext}>Will become active once the match has started</span>
